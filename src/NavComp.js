@@ -9,17 +9,17 @@ function NavComp({ onChangePage }) {
     }
     
     return(
-        <nav>  
-            <h1>051622</h1>
+        <nav>  <h1>Flatiron Virtual Yearbook</h1><br>
+        </br>
+        
+     
+       
+       
         <div>
             
             <NavLink exact to="/">Home</NavLink><br></br>
             <NavLink to="/router2">About</NavLink><br></br>
             <NavLink to="/router3">Search</NavLink> 
-            
-            {/* <NavLink>Navlink1</NavLink>
-            <NavLink>Navlink2</NavLink>
-            <NavLink>Navlink3</NavLink> */}
             
         </div>
         
