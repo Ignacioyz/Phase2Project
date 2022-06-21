@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom"
 
 const NavComp = () =>{
     return(
-        <nav>  <h1>Meme Generator</h1><br>
+        <nav>  <h1>Flatiron Virtual Yearbook</h1><br>
         </br>
         <div>
-            <a>Router1</a> <br></br>
-            <a>Router2</a> <br></br>
+            <a>Home</a> <br></br>
+            <a>About Cohort</a> <br></br>
             <a>Router3</a> <br></br>
             {/* <NavLink>Navlink1</NavLink>
             <NavLink>Navlink2</NavLink>

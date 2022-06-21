@@ -1,108 +1,110 @@
-[
+{
+
+"students":[
     {
         "Name": "Alan Matos ",
         "City": "Belo Horizonte, Brazil",
         "FavoriteFood": "Cheesecake",
         "FavoriteColor": "Blue",
-        "Image": "url"
+        "Image": "./cohort_pictures/Alan.jpg"
     },
     {
         "Name": "Andrew MacLarty ",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Andrew.jpg"
     },
     {
         "Name": "Bach Le",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Bach.jpg"
     },
     {
         "Name": "Brandon Deny",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Brandon.jpg"
     },
     {
         "Name": "Brandon 'Bop' Ward",
         "City": "New York",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Bop.jpg"
     },
     {
         "Name": "Cristian Morales",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Cristian.jpg"
     },
     {
         "Name": "Eric Ekas",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Eric.jpg"
     },
     {
         "Name": "Fred Dex",
         "City": "Jersey City, NJ",
         "FavoriteFood": "Italian",
         "FavoriteColor": "Orange",
-        "Image": "url"
+        "Image": "./cohort_pictures/Fred.jpg"
     },
     {
         "Name": "Griffen Dooley",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Griffen.jpg"
     },
     {
         "Name": "Hayet Kumasseh",
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Hayet.jpg"
     },
     {
         "Name": "Ignacio Yz",
         "City": "New York, NY",
         "FavoriteFood": "Peruvian/Mexican",
         "FavoriteColor": "Lilac",
-        "Image": "url"
+        "Image": "./cohort_pictures/Ignacio.jpg"
     },
     {
         "Name": "Kevin Kim",
         "City": "Seoul, Korea",
         "FavoriteFood": "Sashimi",
         "FavoriteColor": "Blue",
-        "Image": "url"
+        "Image": "./cohort_pictures/Kevin.jpg"
     },
     {
         "Name": "Leslie Figueroa",
         "City": "Long Beach, LI",
         "FavoriteFood": "Sushi",
         "FavoriteColor": "Purple",
-        "Image": "url"
+        "Image": "./cohort_pictures/Leslie.jpg"
     },
     {
         "Name": "Logan Guillory",
         "City": "New Orleans, Louisiana",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Logan.jpg"
     },
     {
         "Name": "Norm 'CSS' Roger",
         "City": "Lagos, Nigeria",
         "FavoriteFood": "",
         "FavoriteColor": "Lilac",
-        "Image": "url"
+        "Image": "./cohort_pictures/Norm.jpg"
     
     },
     {
@@ -110,7 +112,7 @@
         "City": "Fuzhou, China",
         "FavoriteFood": "Croissant",
         "FavoriteColor": "Green",
-        "Image": "url"
+        "Image": "./cohort_pictures/QB.jpg"
     
     },
     {
@@ -118,7 +120,7 @@
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Sabiha.jpg"
     
     },
     {
@@ -126,7 +128,7 @@
         "City": "New York, Ny",
         "FavoriteFood": "Spicy Chicken Sandwich",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Subi.jpg"
     
     },
     {
@@ -134,7 +136,7 @@
         "City": "New York, Ny",
         "FavoriteFood": "Fried-Chicken",
         "FavoriteColor": "Blue",
-        "Image": "url"
+        "Image": "./cohort_pictures/Tremelle.jpg"
     
     },
     {
@@ -142,7 +144,8 @@
         "City": "",
         "FavoriteFood": "",
         "FavoriteColor": "",
-        "Image": "url"
+        "Image": "./cohort_pictures/Winnie.jpg"
     
     }
 ]
+}
