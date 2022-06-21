@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import CohortComponent from './CohortComponent';
+import NavComp from './NavComp';
+import cohort from "./cohort.json"
+import { Switch, Route } from 'react'
+import Router1 from './Router1'
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    {/* <Switch>
+      <Route>
+      </Route>
+    </Switch> */}
+      
+      <NavComp />
+       <CohortComponent cohortProp={cohort} />
+      <Router1 />
+      
     </div>
   );
 }

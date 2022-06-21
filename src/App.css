@@ -7,32 +7,45 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
+
+/* .App-header {
+  background-color: #658bd8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
+} */
+
+
+
+#CohortMembers{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 37px;
+  box-shadow: 0 4px 8px 0 rgba(9, 9, 9, 0.2);
+  transition: 0.3s;
+  display:inline-block;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  
 }
 
-.App-link {
-  color: #61dafb;
+#CohortMembers:hover{
+    box-shadow: 0 10px 16px 0 rgb(7, 130, 238);
+    ;
+}
+nav{
+  height: 250px;
+  font-size: calc(5px + 2vmin);
+  background-color:rgb(7, 130, 238);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
