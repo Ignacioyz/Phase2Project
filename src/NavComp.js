@@ -1,25 +1,32 @@
 import CohortComponent from "./CohortComponent"
 import { NavLink } from "react-router-dom"
 
-const NavComp = () =>{
+function NavComp({ onChangePage }) {
+    
+    function handleLinkClick(e){
+        e.preventDefault()
+        onChangePage(e.target.pathname)
+    }
+    
     return(
         <nav>  <h1>Flatiron Virtual Yearbook</h1><br>
         </br>
+        
+     
+       
+       
         <div>
-            <a>Home</a> <br></br>
-            <a>About Cohort</a> <br></br>
-            <a>Router3</a> <br></br>
-            {/* <NavLink>Navlink1</NavLink>
-            <NavLink>Navlink2</NavLink>
-            <NavLink>Navlink3</NavLink> */}
+            
+            <NavLink exact to="/">Home</NavLink><br></br>
+            <NavLink to="/router2">About</NavLink><br></br>
+            <NavLink to="/router3">Search</NavLink> 
+            
         </div>
         
         </nav>
         
-    )
+    );
 }
 
 
-
-
-export default NavComp
+export default NavComp;
