@@ -1,24 +1,33 @@
+
+import { Switch, Route } from 'react-router-dom';
+import React, { useState } from "react";
 import './App.css';
 import CohortComponent from './CohortComponent';
 import NavComp from './NavComp';
 import cohort from "./cohort.json"
-import { Switch, Route } from 'react'
-import Router1 from './Router1'
+import Router1 from './Router1';
+import Router2 from './Router2';
+import Router3 from './Router3';
+
 
 
 function App() {
+  const [page, setPage] = useState("/")
   
   return (
     <div className="App">
-    
-    {/* <Switch>
-      <Route>
+    <NavComp onChangePage={setPage} />
+    <Switch>
+      <Route path="/router1">
+          <Router1 />
       </Route>
-    </Switch> */}
-      
-      <NavComp />
-       <CohortComponent cohortProp={cohort} />
-      <Router1 />
+      <Route path="/router2">
+          <Router2 />
+      </Route>
+      <Route path="/router3">
+          <Router3 />
+      </Route>
+  </Switch>
       
     </div>
   );
