@@ -18,7 +18,7 @@ function NavComp({ onChangePage }) {
         <div>
             
             <NavLink exact to="/">Home</NavLink><br></br>
-            <NavLink to="/router2">About</NavLink><br></br>
+            <NavLink to="/studentprofile">StudentProfile</NavLink><br></br>
             <NavLink to="/router3">Search</NavLink> 
             
         </div>
