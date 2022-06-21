@@ -6,12 +6,11 @@ const NavComp = () =>{
         <nav>  <h1>Meme Generator</h1><br>
         </br>
         <div>
-            <a>Router1</a> <br></br>
-            <a>Router2</a> <br></br>
-            <a>Router3</a> <br></br>
-            {/* <NavLink>Navlink1</NavLink>
-            <NavLink>Navlink2</NavLink>
-            <NavLink>Navlink3</NavLink> */}
+            
+            <NavLink exact to="/">Home</NavLink><br></br>
+            <NavLink to="/studentprofile">StudentProfile</NavLink><br></br>
+            <NavLink to="/router3">Search</NavLink> 
+            
         </div>
         
         </nav>
