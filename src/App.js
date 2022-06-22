@@ -4,10 +4,8 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import CohortComponent from './CohortComponent';
 import NavComp from './NavComp';
-import cohort from "./cohort.json"
-import Router1 from './Router1';
-import Router2 from './Router2';
 import Router3 from './Router3';
+import StudentProfile from './StudentProfile';
 
 
 function App() {
@@ -20,23 +18,18 @@ function App() {
       .then(r => r.json())
       .then(data => {
         setCohort(data)
-        console.log(data)
+        // console.log(data)
       })
   }, [])
 
-  const [memberProfile, setMemberProfile] = useState([])
+  const [memberProfile, setMemberProfile] = useState({})
 
-  function handleClick(cohort) {
-    const clickedStutdent = memberProfile.findIndex(student => cohort.id === student.id )
-  if (clickedStutdent === -1) {
-    setMemberProfile([...memberProfile, cohort])
-  }
+  function handleClick(member) {
+    setMemberProfile(member)
+
   }
 
-
-
-
-
+  console.log(memberProfile)
 
 
 
@@ -44,16 +37,18 @@ function App() {
   return (
     <div className="App">
       <NavComp onChangePage={setPage} />
-      <CohortComponent cohort={cohort} handleClick={handleClick} />
+      
       <Switch>
-        <Route path="/router1">
-          <Router1 />
-        </Route>
-        <Route path="/router2">
-          <Router2 />
+       
+        <Route path="/studentprofile/:id">
+          <StudentProfile />
         </Route>
         <Route path="/router3">
           <Router3 />
+        </Route>
+        <Route path="/">
+        <CohortComponent memberProfile={memberProfile} cohort={cohort} 
+        handleClick={handleClick} />
         </Route>
       </Switch>
 

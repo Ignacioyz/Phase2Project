@@ -18,11 +18,12 @@ function NavComp({ onChangePage }) {
         <div>
             
             <NavLink exact to="/">Home</NavLink><br></br>
-            <NavLink to="/router2">About</NavLink><br></br>
-            <NavLink to="/router3">Search</NavLink> 
+            <NavLink to="/router3">Cohort MVCs </NavLink> 
             
         </div>
-        
+        <h1>
+           
+        </h1>
         </nav>
         
     );
