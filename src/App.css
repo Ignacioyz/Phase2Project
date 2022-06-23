@@ -73,6 +73,12 @@ html,body{
   height: 850px;
 }
 
+.form-group{
+ width:400px;
+ margin-left: 750px;
+ margin-bottom: 100px;
+}
+ 
 p{
   text-align: center;
   
@@ -91,6 +97,7 @@ p{
 }
 
 #profile-image{
+  margin-top: 50px;
   width: 500px;
   height: 400px;
 }

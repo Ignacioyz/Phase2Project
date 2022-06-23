@@ -1,11 +1,14 @@
 
 import { Switch, Route } from 'react-router-dom';
-import React, { useState, useEffect } from "react";
 import './App.css';
+import {React, useState, useEffect} from "react"
 import CohortComponent from './CohortComponent';
 import NavComp from './NavComp';
+import cohort from "./cohort.json"
 import Router3 from './Router3';
 import StudentProfile from './StudentProfile';
+import "bootswatch/dist/slate/bootstrap.min.css";
+
 
 
 function App() {
