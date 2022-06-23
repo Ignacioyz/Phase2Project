@@ -1,43 +1,40 @@
 import React from "react";
-import {useState, useEffect} from "react";
-import {useParams} from "react-router-dom"
-
-
-
-
-
-
-function StudentProfile() {
-// console.log(memberProfile.Name)
-const [studentProfile, setStudentProfile] = useState(null)
-const { id } = useParams()
-
-
-
-
-useEffect(()=> {
-    fetch(`http://localhost:4000/students/${id}`)
-    .then(response => response.json())
-    .then(data => {
-        setStudentProfile(data)
-    })
+import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+ 
+function StudentProfile({ }) {
+   
+    const [studentProfile, setStudentProfile]= useState(false)
+    const { id } = useParams()
+    
+    
+    
+    useEffect(() => {
+        fetch(`http://localhost:4000/students/${id}`)
+        .then(r => r.json())
+        .then(data => {
+            setStudentProfile(data)
+            console.log(data)
+        })
     }, [id])
 
     if (!studentProfile) return studentProfile
 
-return(
-    <div id="student-profile">
-        <div id="Student_Profile_Div" key = {studentProfile.id}>
-        <img src={studentProfile.Image}></img>
-        {studentProfile.Name}<br></br>
-        {studentProfile.City}<br></br>
-        {studentProfile.FavoriteFood}<br></br>
-        {studentProfile.FavoriteColor}<br></br>
+    return(
+       
+       <div id="student-profile">
+            
+            <div id="Student_Profile_Div" key = {studentProfile.id}> 
+            <img id="profile-image" src={studentProfile.Image} ></img> <br></br>
+            NAME: {studentProfile.Name} <br></br>
+            ORIGIN: {studentProfile.City} <br></br>
+            FAV FOOD: {studentProfile.FavoriteFood} <br></br>
+            FAV COLOR: {studentProfile.FavoriteColor} <br></br>
+           </div> 
+          
         </div>
-    </div>
-
-        
-    )
+  
+    );
 }
 
-export default StudentProfile;
+export default StudentProfile

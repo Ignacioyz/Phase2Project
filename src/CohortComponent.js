@@ -1,21 +1,21 @@
 import React, { useState } from "react"
 import { Switch, Route } from 'react'
+import { NavLink } from "react-router-dom"
 import StudentProfile from "./StudentProfile"
-import NavComp from "./NavComp"
-import {NavLink} from "react-router-dom"
 
 
-
-const CohortComponent = ({ cohort, handleClick, memberProfile}) => {
+const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
      
-  return (
+    
+    return (
         <div>
-            {cohort.map(member => {
+            {cohort.map(member => {     
                 return (
-                    <div key={member.Name} onClick ={() => handleClick(member)} id="CohortMembers" > 
+                    <div key={member.Name} onClick={() => handleClick(member) } id="CohortMembers" > 
+                   
                     <img src={member.Image}></img>
                     <br></br>
-                     
+                    
                      <br></br>
                      {/* Place of birth: {member.City} 
                      <br></br> 
@@ -24,10 +24,12 @@ const CohortComponent = ({ cohort, handleClick, memberProfile}) => {
                      Favorite Color: 
                      <br></br> 
                      {member.FavoriteColor}   */}
-
-                    <NavLink to={`/StudentProfile/${member.id}`}> {member.Name}</NavLink>
-                    
+                     
+                     
+                    <NavLink to={`/StudentProfile/${member.id}`}> {member.Name} </NavLink>
                      </div>
+                
+                
                 )
 
 

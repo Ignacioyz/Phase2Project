@@ -5,9 +5,10 @@ import {React, useState, useEffect} from "react"
 import CohortComponent from './CohortComponent';
 import NavComp from './NavComp';
 import cohort from "./cohort.json"
-import StudentProfile from './StudentProfile';
 import Router3 from './Router3';
+import StudentProfile from './StudentProfile';
 import "bootswatch/dist/slate/bootstrap.min.css";
+
 
 
 function App() {
@@ -20,34 +21,38 @@ function App() {
       .then(r => r.json())
       .then(data => {
         setCohort(data)
-        console.log(data)
+        // console.log(data)
       })
   }, [])
 
-  const [memberProfile, setMemberProfile] = useState([])
+  const [memberProfile, setMemberProfile] = useState({})
 
   function handleClick(member) {
     setMemberProfile(member)
+
   }
 
-  console.log(memberProfile);
- 
-return (
+  console.log(memberProfile)
+
+
+
+
+  return (
     <div className="App">
-      <NavComp onChangePage={setPage}/>
-      
+      <NavComp onChangePage={setPage} />
       
       <Switch>
-        
-        <Route exact path="/studentprofile/:id">
+       
+        <Route path="/studentprofile/:id">
           <StudentProfile />
         </Route>
         <Route path="/router3">
           <Router3 />
         </Route>
         <Route path="/">
-          <CohortComponent cohort={cohort} memberProfile={memberProfile}handleClick={handleClick}/>
-          </Route>
+        <CohortComponent memberProfile={memberProfile} cohort={cohort} 
+        handleClick={handleClick} />
+        </Route>
       </Switch>
 
     </div>
