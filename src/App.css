@@ -1,3 +1,9 @@
+h1{
+  margin: 0%;
+  padding-top: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 .App {
   text-align: center;
   margin-bottom: 10px;
@@ -7,6 +13,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -54,4 +61,36 @@ nav {
 img {
   height:200px ;
   width: 160px;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.mvc-div{
+  background-color: azure;
+  height: 850px;
+}
+
+p{
+  text-align: center;
+  
+}
+
+.mvc-description{
+  padding-left: 600px;
+  padding-right: 600px;
+  
+}
+
+#homies{
+  margin-top: 10px;
+  width: 500px;
+  height: 400px;
+}
+
+#profile-image{
+  width: 500px;
+  height: 400px;
 }

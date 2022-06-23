@@ -11,25 +11,25 @@
         {
             "id": 2,
             "Name": "Andrew MacLarty ",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Sioux Falls",
+            "FavoriteFood": "Bologna Sandwich",
+            "FavoriteColor": "Tuti-Fruity",
             "Image": "./cohort_pictures/Andrew.jpg"
         },
         {
             "id": 3,
             "Name": "Bach Le",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Hanoi, Vietnam",
+            "FavoriteFood": "Banh-Mi",
+            "FavoriteColor": "Brown",
             "Image": "./cohort_pictures/Bach.jpg"
         },
         {
             "id": 4,
-            "Name": "Brandon Deny",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "Name": "Brandon Deny (Instructor)",
+            "City": "Fort Benning, GA",
+            "FavoriteFood": "Mexican",
+            "FavoriteColor": "Black",
             "Image": "./cohort_pictures/Brandon.jpg"
         },
         {
@@ -51,9 +51,9 @@
         {
             "id": 7,
             "Name": "Eric Ekas",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Philadelphia, PA",
+            "FavoriteFood": "Pepperoni Pizza",
+            "FavoriteColor": "Red",
             "Image": "./cohort_pictures/Eric.jpg"
         },
         {
@@ -67,17 +67,17 @@
         {
             "id": 9,
             "Name": "Griffen Dooley",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Burbank, CA",
+            "FavoriteFood": "Chicken Pad Thai",
+            "FavoriteColor": "Forrest Green",
             "Image": "./cohort_pictures/Griffen.jpg"
         },
         {
             "id": 10,
             "Name": "Hayet Kumasseh",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Accra, Ghana",
+            "FavoriteFood": "Jollof Rice",
+            "FavoriteColor": "Lavender",
             "Image": "./cohort_pictures/Hayet.jpg"
         },
         {
@@ -108,8 +108,8 @@
             "id": 14,
             "Name": "Logan Guillory",
             "City": "New Orleans, Louisiana",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "FavoriteFood": "Thai",
+            "FavoriteColor": "Teal",
             "Image": "./cohort_pictures/Logan.jpg"
         },
         {
@@ -131,9 +131,9 @@
         {
             "id": 17,
             "Name": "Sabiha Bary",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Brooklyn, NY",
+            "FavoriteFood": "Tacos",
+            "FavoriteColor": "Blue/Red",
             "Image": "./cohort_pictures/Sabiha.jpg"
         },
         {
@@ -155,9 +155,9 @@
         {
             "id": 20,
             "Name": "Winnie Mendoza",
-            "City": "",
-            "FavoriteFood": "",
-            "FavoriteColor": "",
+            "City": "Brownsville, TX",
+            "FavoriteFood": "Tacos",
+            "FavoriteColor": "Black",
             "Image": "./cohort_pictures/Winnie.jpg"
         }
     ]
