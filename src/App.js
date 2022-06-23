@@ -5,9 +5,9 @@ import {React, useState, useEffect} from "react"
 import CohortComponent from './CohortComponent';
 import NavComp from './NavComp';
 import cohort from "./cohort.json"
-import Router1 from './Router1';
 import StudentProfile from './StudentProfile';
 import Router3 from './Router3';
+import "bootswatch/dist/slate/bootstrap.min.css";
 
 
 function App() {
@@ -26,35 +26,28 @@ function App() {
 
   const [memberProfile, setMemberProfile] = useState([])
 
-  function handleClick(cohort) {
-    const clickedStutdent = memberProfile.findIndex(student => cohort.id === student.id )
-  if (clickedStutdent === -1) {
-    setMemberProfile([...memberProfile, cohort])
-  }
+  function handleClick(member) {
+    setMemberProfile(member)
   }
 
-
-
-
-
-
-
-
-
-  return (
+  console.log(memberProfile);
+ 
+return (
     <div className="App">
-      <NavComp onChangePage={setPage} />
-      <CohortComponent cohort={cohort} handleClick={handleClick} />
+      <NavComp onChangePage={setPage}/>
+      
+      
       <Switch>
-        <Route path="/router1">
-          <Router1 />
-        </Route>
-        <Route path="/studentprofile">
+        
+        <Route exact path="/studentprofile/:id">
           <StudentProfile />
         </Route>
         <Route path="/router3">
           <Router3 />
         </Route>
+        <Route path="/">
+          <CohortComponent cohort={cohort} memberProfile={memberProfile}handleClick={handleClick}/>
+          </Route>
       </Switch>
 
     </div>

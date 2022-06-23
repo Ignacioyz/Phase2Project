@@ -1,3 +1,12 @@
+h1{
+  margin: 0%;
+  padding-top: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+
 .App {
   text-align: center;
   margin-bottom: 10px;
@@ -54,4 +63,16 @@ nav {
 img {
   height:200px ;
   width: 160px;
+}
+
+.mvc-div{
+  background-color: azure;
+  height: 850px;
+}
+
+.form-group{
+ width:400px;
+ margin-left: 750px;
+ margin-bottom: 100px;
+ 
 }
