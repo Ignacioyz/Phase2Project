@@ -6,7 +6,7 @@
             "City": "Belo Horizonte, Brazil",
             "FavoriteFood": "Cheesecake",
             "FavoriteColor": "Blue",
-            "Image": "./cohort_pictures/Alan.jpg"
+            "Image": "../cohort_pictures/Alan.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "City": "Sioux Falls",
             "FavoriteFood": "Bologna Sandwich",
             "FavoriteColor": "Tuti-Fruity",
-            "Image": "./cohort_pictures/Andrew.jpg"
+            "Image": "../cohort_pictures/Andrew.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "City": "Hanoi, Vietnam",
             "FavoriteFood": "Banh-Mi",
             "FavoriteColor": "Brown",
-            "Image": "./cohort_pictures/Bach.jpg"
+            "Image": "../cohort_pictures/Bach.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "City": "Fort Benning, GA",
             "FavoriteFood": "Mexican",
             "FavoriteColor": "Black",
-            "Image": "./cohort_pictures/Brandon.jpg"
+            "Image": "../cohort_pictures/Brandon.jpg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "City": "New York",
             "FavoriteFood": "",
             "FavoriteColor": "",
-            "Image": "./cohort_pictures/Bop.jpg"
+            "Image": "../cohort_pictures/Bop.jpg"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "City": "",
             "FavoriteFood": "",
             "FavoriteColor": "",
-            "Image": "./cohort_pictures/Cristian.jpg"
+            "Image": "../cohort_pictures/Cristian.jpg"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "City": "Philadelphia, PA",
             "FavoriteFood": "Pepperoni Pizza",
             "FavoriteColor": "Red",
-            "Image": "./cohort_pictures/Eric.jpg"
+            "Image": "../cohort_pictures/Eric.jpg"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "City": "Jersey City, NJ",
             "FavoriteFood": "Italian",
             "FavoriteColor": "Orange",
-            "Image": "./cohort_pictures/Fred.jpg"
+            "Image": "../cohort_pictures/Fred.jpg"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "City": "Burbank, CA",
             "FavoriteFood": "Chicken Pad Thai",
             "FavoriteColor": "Forrest Green",
-            "Image": "./cohort_pictures/Griffen.jpg"
+            "Image": "../cohort_pictures/Griffen.jpg"
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "City": "Accra, Ghana",
             "FavoriteFood": "Jollof Rice",
             "FavoriteColor": "Lavender",
-            "Image": "./cohort_pictures/Hayet.jpg"
+            "Image": "../cohort_pictures/Hayet.jpg"
         },
         {
             "id": 11,
@@ -86,7 +86,7 @@
             "City": "New York, NY",
             "FavoriteFood": "Peruvian/Mexican",
             "FavoriteColor": "Lilac",
-            "Image": "./cohort_pictures/Ignacio.jpg"
+            "Image": "../cohort_pictures/Ignacio.jpg"
         },
         {
             "id": 12,
@@ -94,7 +94,7 @@
             "City": "Seoul, Korea",
             "FavoriteFood": "Sashimi",
             "FavoriteColor": "Blue",
-            "Image": "./cohort_pictures/Kevin.jpg"
+            "Image": "../cohort_pictures/Kevin.jpg"
         },
         {
             "id": 13,
@@ -102,7 +102,7 @@
             "City": "Long Beach, LI",
             "FavoriteFood": "Sushi",
             "FavoriteColor": "Purple",
-            "Image": "./cohort_pictures/Leslie.jpg"
+            "Image": "../cohort_pictures/Leslie.jpg"
         },
         {
             "id": 14,
@@ -110,7 +110,7 @@
             "City": "New Orleans, Louisiana",
             "FavoriteFood": "Thai",
             "FavoriteColor": "Teal",
-            "Image": "./cohort_pictures/Logan.jpg"
+            "Image": "../cohort_pictures/Logan.jpg"
         },
         {
             "id": 15,
@@ -118,7 +118,7 @@
             "City": "Lagos, Nigeria",
             "FavoriteFood": "",
             "FavoriteColor": "Lilac",
-            "Image": "./cohort_pictures/Norm.jpg"
+            "Image": "../cohort_pictures/Norm.jpg"
         },
         {
             "id": 16,
@@ -126,7 +126,7 @@
             "City": "Fuzhou, China",
             "FavoriteFood": "Croissant",
             "FavoriteColor": "Green",
-            "Image": "./cohort_pictures/QB.jpg"
+            "Image": "../cohort_pictures/QB.jpg"
         },
         {
             "id": 17,
@@ -134,7 +134,7 @@
             "City": "Brooklyn, NY",
             "FavoriteFood": "Tacos",
             "FavoriteColor": "Blue/Red",
-            "Image": "./cohort_pictures/Sabiha.jpg"
+            "Image": "../cohort_pictures/Sabiha.jpg"
         },
         {
             "id": 18,
@@ -142,7 +142,7 @@
             "City": "New York, Ny",
             "FavoriteFood": "Spicy Chicken Sandwich",
             "FavoriteColor": "",
-            "Image": "./cohort_pictures/Subi.jpg"
+            "Image": "../cohort_pictures/Subi.jpg"
         },
         {
             "id": 19,
@@ -150,7 +150,7 @@
             "City": "New York, Ny",
             "FavoriteFood": "Fried-Chicken",
             "FavoriteColor": "Blue",
-            "Image": "./cohort_pictures/Tremelle.jpg"
+            "Image": "../cohort_pictures/Tremelle.jpg"
         },
         {
             "id": 20,
@@ -158,7 +158,7 @@
             "City": "Brownsville, TX",
             "FavoriteFood": "Tacos",
             "FavoriteColor": "Black",
-            "Image": "./cohort_pictures/Winnie.jpg"
+            "Image": "../cohort_pictures/Winnie.jpg"
         }
     ]
 }

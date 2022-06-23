@@ -17,13 +17,14 @@ function StudentProfile({ }) {
             console.log(data)
         })
     }, [id])
-
+    console.log(studentProfile);
+    
+    
     if (!studentProfile) return studentProfile
 
     return(
-       
-       <div id="student-profile">
-            
+
+            <div id="student-profile">
             <div id="Student_Profile_Div" key = {studentProfile.id}> 
             <img id="profile-image" src={studentProfile.Image} ></img> <br></br>
             NAME: {studentProfile.Name} <br></br>
@@ -31,8 +32,8 @@ function StudentProfile({ }) {
             FAV FOOD: {studentProfile.FavoriteFood} <br></br>
             FAV COLOR: {studentProfile.FavoriteColor} <br></br>
            </div> 
-          
-        </div>
+           
+         </div>
   
     );
 }
