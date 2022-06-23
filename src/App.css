@@ -75,8 +75,7 @@ html,body{
 
 .form-group{
  width:400px;
- margin-left: 750px;
- margin-bottom: 100px;
+ margin: auto;
 }
  
 p{

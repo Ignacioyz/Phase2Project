@@ -6,6 +6,27 @@ import StudentProfile from "./StudentProfile"
 
 const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
      
+    function postNewMember(e){
+    fetch('http://localhost:4000/students', {
+        method: 'POST',
+        headers: {
+            'Accept':'application/json',
+            
+            'Content-Type':'application/json'
+        },
+        
+        body: JSON.stringify(
+            ({
+                'Image': e.target.Image.value,
+                'Name': e.target.Name,
+                'City': e.target.City.value,
+                'FavoriteFood': e.target.FavoriteFood.value,
+                'FavoriteColor': e.target.FavoriteColor.value,
+            })
+
+        )
+    })
+}
     
     return (
         <div>
@@ -34,9 +55,11 @@ const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
 
 
             })}
+            
             <div class="form-group">
-             
-            <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Name</label>
+           
+             <form onSubmit={postNewMember}> 
+             <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Name</label>
             <input class="form-control form-control-sm" type="text" name= "Name" placeholder="Enter text" id="Name-form"/>
            
 
@@ -62,8 +85,9 @@ const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
             <br></br>
             <br></br>
 
-            <button type="button" class="btn btn-outline-success">Add New Student</button>
-            </div>
+            <button type="submit" class="btn btn-outline-info">Add New Student</button>
+        </form>
+            </div> 
         </div>
 
 
