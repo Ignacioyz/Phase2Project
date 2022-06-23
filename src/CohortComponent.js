@@ -55,6 +55,36 @@ const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
 
 
             })}
+            <div class="form-group">
+             
+            <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Name</label>
+            <input class="form-control form-control-sm" type="text" name= "Name" placeholder="Enter text" id="Name-form"/>
+           
+
+            
+            <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Birthplace</label>
+            <input class="form-control form-control-sm" type="text" name="City" placeholder="Enter text" id="Birthplace-form"/>
+           
+
+            
+            <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Favorite Food</label>
+            <input class="form-control form-control-sm"type="text" name= "FavoriteFood" placeholder="Enter text" id="Food-form"/>
+           
+
+            
+            <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Favorite Color</label>
+            <input class="form-control form-control-sm" type="text" name="FavoriteColor" placeholder="Enter text" id="FavColor-form"/>
+
+            
+            <label class="col-form-label col-form-label-sm mt-4" for="inputSmall">Student Image URL</label>
+            <input class="form-control form-control-sm" type="text" name="FavoriteColor" placeholder="ImageUrl" id="Image-form"/>
+
+            
+            <br></br>
+            <br></br>
+
+            <button type="button" class="btn btn-outline-success">Add New Student</button>
+            </div>
         </div>
 
 
@@ -64,4 +94,4 @@ const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
     )
 }
 
-export default CohortComponent 
+export default CohortComponent;

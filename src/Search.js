@@ -1,6 +1,6 @@
 import React from "react";
 
-function Router2() {
+function Router3() {
 
 
 
@@ -9,4 +9,4 @@ function Router2() {
         <></>
     )
 }
-export default Router2
+export default Router3
