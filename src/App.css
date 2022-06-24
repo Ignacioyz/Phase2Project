@@ -42,7 +42,7 @@ h1{
   transition: 0.3s;
   display: inline-block;
   border-radius: 5px 5px 0 0;
-  cursor: pointer;
+  /* cursor: pointer; */
 
 }
 
@@ -51,10 +51,16 @@ h1{
   ;
 }
 
+ul{
+  line-height: 30px;
+  font-size:x-large
+  
+}
+
 nav {
   height: 250px;
   font-size: calc(5px + 2vmin);
-  background-color: rgb(7, 130, 238);
+  background-color: rgb(38, 191, 246);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -75,7 +81,8 @@ html,body{
 
 .form-group{
  width:400px;
- margin: auto;
+margin: auto;
+
 }
  
 p{
@@ -99,4 +106,14 @@ p{
   margin-top: 50px;
   width: 500px;
   height: 400px;
+  margin-bottom:15px;
+}
+
+h1{
+  color: rgb(5, 2, 91);
+}
+
+#heart-icon{
+  pointer-events: none;
+  color: red;
 }

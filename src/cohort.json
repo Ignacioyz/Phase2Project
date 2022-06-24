@@ -35,17 +35,17 @@
     {
       "id": 5,
       "Name": "Brandon 'Bop' Ward",
-      "City": "New York",
-      "FavoriteFood": "",
-      "FavoriteColor": "",
+      "City": "Earth",
+      "FavoriteFood": "Curry",
+      "FavoriteColor": "God",
       "Image": "../cohort_pictures/Bop.jpg"
     },
     {
       "id": 6,
       "Name": "Cristian Morales",
-      "City": "",
-      "FavoriteFood": "",
-      "FavoriteColor": "",
+      "City": "unknown",
+      "FavoriteFood": "unknown",
+      "FavoriteColor": "unknown",
       "Image": "../cohort_pictures/Cristian.jpg"
     },
     {
@@ -116,7 +116,7 @@
       "id": 15,
       "Name": "Norm 'CSS' Roger",
       "City": "Lagos, Nigeria",
-      "FavoriteFood": "",
+      "FavoriteFood": "Stewed Rice & Chicken",
       "FavoriteColor": "Lilac",
       "Image": "../cohort_pictures/Norm.jpg"
     },
@@ -141,7 +141,7 @@
       "Name": "Subi Khan",
       "City": "New York, Ny",
       "FavoriteFood": "Spicy Chicken Sandwich",
-      "FavoriteColor": "",
+      "FavoriteColor": "unknown",
       "Image": "../cohort_pictures/Subi.jpg"
     },
     {
@@ -154,13 +154,18 @@
     },
     {
       "id": 20,
-      "Name": "Winnie Mendoza",
+      "Name": "Winnie 'Up to no good' Mendoza",
       "City": "Brownsville, TX",
       "FavoriteFood": "Tacos",
       "FavoriteColor": "Black",
       "Image": "../cohort_pictures/Winnie.jpg"
     },
     {
+      "Image": "https://i.pinimg.com/736x/f7/8e/58/f78e58015bbaa0864dc1ef27f573e34a--italian-men-black-guys.jpg",
+      "Name": "Delvin Junior Dingleberry",
+      "City": "Secaucus",
+      "FavoriteFood": "Cheese",
+      "FavoriteColor": "Pigeon",
       "id": 21
     }
   ]
