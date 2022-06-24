@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
  
-function StudentProfile({ }) {
+function StudentProfile({}) {
    
     const [studentProfile, setStudentProfile]= useState(false)
     const { id } = useParams()
@@ -27,10 +27,12 @@ function StudentProfile({ }) {
             <div id="student-profile">
             <div id="Student_Profile_Div" key = {studentProfile.id}> 
             <img id="profile-image" src={studentProfile.Image} ></img> <br></br>
+           <ul>
             NAME: {studentProfile.Name} <br></br>
             ORIGIN: {studentProfile.City} <br></br>
             FAV FOOD: {studentProfile.FavoriteFood} <br></br>
             FAV COLOR: {studentProfile.FavoriteColor} <br></br>
+            </ul>
            </div> 
            
          </div>
