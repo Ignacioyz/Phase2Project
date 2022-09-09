@@ -57,9 +57,9 @@ const CohortComponent = ({ cohort, handleClick, memberProfile, }) => {
 
             })}
 
-            <div class="form-group">
-
-                <form onSubmit={postNewMember}>
+            <div class="form-group"> 
+ 
+                <form onSubmit={postNewMember}> 
                     {/* <input type="text" name="Name"></input>
                    <input type="text" name="City"></input>
                    <input type="text" name="FavoriteFood"></input>

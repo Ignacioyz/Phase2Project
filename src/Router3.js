@@ -15,7 +15,7 @@ function Router3() {
             <p>Your Most Valuable Coders (Logan, Ignacio, and Tremelle) are three students from diverse backgroungds
                 currently attending the Flatiron School's rigorous Software Engineering program. Despite 
                 the franetic velocity of the course, they have enjoyed the creative process, and learning the new 
-                challenging topics that the course has to offer.
+                challenging topics that the course has to offer. Thank you for visiting our page!
             </p>
             </div>
         </div>
